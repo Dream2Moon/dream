@@ -653,12 +653,20 @@
   .home-image4 {
     width: 380px;
   }
+  .home-tokenomics {
+    gap: 0;
+    justify-content: space-between;
+  }
   .home-header04 {
     color: var(--dl-color-gray-black);
     font-size: 72px;
     font-style: normal;
     font-weight: 500;
+    margin-bottom: var(--dl-space-space-twounits);
     letter-spacing: 1px;
+  }
+  .home-understand2 {
+    margin-top: var(--dl-space-space-fourunits);
   }
   .home-image5 {
     width: 680px;
