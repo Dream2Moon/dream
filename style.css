@@ -76,11 +76,14 @@
   margin: 1em 0px 1em 0px;
   display: block;
   padding: 0px 0px 0px 1.5rem;
-  list-style-type: none;
+  font-size: xx-large;
+  line-height: var(--dl-size-size-small);
   list-style-position: outside;
 }
 .list-item {
   display: list-item;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .teleport-show {
   display: flex !important;
@@ -147,6 +150,10 @@
   color: white;
   border-color: white;
 }
+.token-item {
+  font-size: 22px;
+  line-height: 26px;
+}
 .Heading {
   font-size: 32px;
   font-family: Inter;
@@ -163,6 +170,8 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
 
 @media(max-width: 767px) {
   .button-link {
