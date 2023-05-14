@@ -1,0 +1,19 @@
+.list3-heading {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 640px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 1200px) {
+  .list3-ul {
+    list-style-type: circle;
+  }
+}
+@media(max-width: 767px) {
+  .list3-heading {
+    gap: var(--dl-space-space-unit);
+  }
+}

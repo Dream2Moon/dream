@@ -1,0 +1,22 @@
+.list1-heading {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 640px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media(max-width: 1200px) {
+  .list1-ul {
+    list-style-type: circle;
+  }
+  .list1-li {
+    list-style-type: none;
+  }
+}
+@media(max-width: 767px) {
+  .list1-heading {
+    gap: var(--dl-space-space-unit);
+  }
+}
