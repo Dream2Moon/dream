@@ -1,454 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Character NFT (Template 11)</title>
+    <meta property="og:title" content="Character NFT (Template 11)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
 
-<head>
-  <title>Dream Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta charset="utf-8" />
-  <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
 
-  <style data-tag="reset-style-sheet">
-    html {
-      line-height: 1.15;
-    }
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
 
-    body {
-      margin: 0;
-    }
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
 
-    * {
-      box-sizing: border-box;
-      border-width: 0;
-      border-style: solid;
-    }
-
-    p,
-    li,
-    ul,
-    pre,
-    div,
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    figure,
-    blockquote,
-    figcaption {
-      margin: 0;
-      padding: 0;
-    }
-
-    button {
-      background-color: transparent;
-    }
-
-    button,
-    input,
-    optgroup,
-    select,
-    textarea {
-      font-family: inherit;
-      font-size: 100%;
-      line-height: 1.15;
-      margin: 0;
-    }
-
-    button,
-    select {
-      text-transform: none;
-    }
-
-    button,
-    [type="button"],
-    [type="reset"],
-    [type="submit"] {
-      -webkit-appearance: button;
-    }
-
-    button::-moz-focus-inner,
-    [type="button"]::-moz-focus-inner,
-    [type="reset"]::-moz-focus-inner,
-    [type="submit"]::-moz-focus-inner {
-      border-style: none;
-      padding: 0;
-    }
-
-    button:-moz-focus,
-    [type="button"]:-moz-focus,
-    [type="reset"]:-moz-focus,
-    [type="submit"]:-moz-focus {
-      outline: 1px dotted ButtonText;
-    }
-
-    a {
-      color: inherit;
-      text-decoration: inherit;
-    }
-
-    input {
-      padding: 2px 4px;
-    }
-
-    img {
-      display: block;
-    }
-
-    html {
-      scroll-behavior: smooth
-    }
-  </style>
-  <style data-tag="default-style-sheet">
-    html {
-      font-family: Inter;
-      font-size: 16px;
-    }
-
-    body {
-      font-weight: 400;
-      font-style: normal;
-      text-decoration: none;
-      text-transform: none;
-      letter-spacing: normal;
-      line-height: 1.15;
-      color: var(--dl-color-gray-black);
-      background-color: var(--dl-color-gray-white);
-
-    }
-  </style>
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-    data-tag="font" />
-  <!--This is the head section-->
-  <!-- <style> ... </style> -->
-  <link rel="stylesheet" href="./style.css" />
-</head>
-
-<body>
-  <div>
-    <link href="./home.css" rel="stylesheet" />
-
-    <div class="home-container">
-      <header data-thq="thq-navbar" class="home-navbar">
-        <img alt="image" src="public/playground_assets/dream-high-resolution-logo-color-on-transparent-background.svg"
-          class="home-image" />
-        <div data-thq="thq-navbar-nav" data-role="Nav" class="home-desktop-menu">
-          <nav data-thq="thq-navbar-nav-links" data-role="Nav" class="home-nav">
-            <a href="#home" class="home-link button-clean button">HOME</a>
-            <a href="#team" class="home-link1 button-clean button">TEAM</a>
-            <a href="#project" class="home-link2 button-clean button">
-              PROJECT
-            </a>
-            <a href="#tokenomics" class="home-button button-clean button">
-              TOKENOMICS
-            </a>
-            <a href="#roadmap" class="home-link3 button-clean button">
-              ROADMAP
-            </a>
-          </nav>
-        </div>
-        <div data-thq="thq-navbar-btn-group" class="home-btn-group">
-          <div class="home-socials">
-            <a href="https://twitter.com/OneMansDream888" target="_blank" rel="noreferrer noopener"
-              class="home-twitter social button">
-              <img alt="image" src="public/playground_assets/twitter.svg" class="home-image1" />
-            </a>
-            <button class="social button">
-              <img alt="image" src="public/playground_assets/discord.svg" class="home-image2" />
-            </button>
+      <div class="home-container">
+        <header data-thq="thq-navbar" class="home-navbar">
+          <img
+            alt="image"
+            src="public/playground_assets/dream-high-resolution-logo-color-on-transparent-background.svg"
+            class="home-image"
+          />
+          <div
+            data-thq="thq-navbar-nav"
+            data-role="Nav"
+            class="home-desktop-menu"
+          >
+            <nav
+              data-thq="thq-navbar-nav-links"
+              data-role="Nav"
+              class="home-nav"
+            >
+              <a href="#home" class="home-link button-clean button">HOME</a>
+              <a href="#team" class="home-link1 button-clean button">TEAM</a>
+              <a href="#project" class="home-link2 button-clean button">
+                PROJECT
+              </a>
+              <a href="#tokenomics" class="home-button button-clean button">
+                TOKENOMICS
+              </a>
+              <a href="#roadmap" class="home-link3 button-clean button">
+                ROADMAP
+              </a>
+            </nav>
           </div>
-        </div>
-      </header>
-      <section id="home" class="home-home">
-        <div class="home-heading">
-          <h1 class="home-header">
-            Don't you hate worthless deceitful memes?
-          </h1>
-          <p class="home-caption">
-            Dream is valuable and meaningful, unlike those worthless deceitful
-            memes!
-          </p>
-        </div>
-        <div class="home-buttons">
-          <button class="button">View on Coinmarketcap</button>
-          <button class="button">View on Coingecko</button>
-        </div>
-      </section>
-      <section id="team" class="home-team">
-        <h2 class="home-header01">Team</h2>
-        <div class="home-understand">
-          <div class="home-content">
-            <div class="home-heading1">
-              <p class="home-header02">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+          <div data-thq="thq-navbar-btn-group" class="home-btn-group">
+            <div class="home-socials">
+              <a
+                href="https://twitter.com/OneMansDream888"
+                target="_blank"
+                rel="noreferrer noopener"
+                class="home-twitter social button"
+              >
+                <img
+                  alt="image"
+                  src="public/playground_assets/twitter.svg"
+                  class="home-image1"
+                />
+              </a>
+              <button class="social button">
+                <img
+                  alt="image"
+                  src="public/playground_assets/discord.svg"
+                  class="home-image2"
+                />
+              </button>
             </div>
           </div>
-          <ul class="list">
-            <li class="list-item">
-              <span>
-                Team has a dream, which is to manage a $10 billion fund one
-                day
-              </span>
-            </li>
-            <li class="list-item">
-              <span>want to do something meaningful</span>
-            </li>
-            <li class="list-item">
-              <span>
-                4+ years of professional experience trading $BTC/$ETH
-              </span>
-            </li>
-          </ul>
-          <img alt="image" src="public/playground_assets/dream-website-favicon-black.svg" class="home-image3" />
-        </div>
-      </section>
-      <section id="project" class="home-project">
-        <h2 class="home-header03">Project</h2>
-        <div class="home-understand1">
-          <img alt="image" src="public/playground_assets/dream-low-resolution-logo-color-on-transparent-background.svg"
-            class="home-image4" />
-          <ul class="list">
-            <li class="list-item">
-              <span>Earn profit from trading $BTC/$ETH</span>
-            </li>
-            <li class="list-item">
-              <span>
-                50% of the profit is used to buy back $DREAM and burn it(once
-                a quarter)
-              </span>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section id="tokenomics" class="home-tokenomics">
-        <h2 class="home-header04">Tokenomics</h2>
-        <h2>
-          There are no institutional investors, opportunities are only given
-          to ordinary people
-        </h2>
-        <div class="home-understand2">
-          <ul class="list">
-            <li class="list-item token-item">
-              <span class="token-item">
-                $DREAM total supply: 1,000,000,000,000
-              </span>
-            </li>
-            <li class="list-item token-item">
-              <span class="token-item">IDO: 40%</span>
-            </li>
-            <li class="list-item token-item">
-              <span class="token-item">
-                DAO Treasury: 20%(After the DAO is established, the usage is
-                determined by the DAO. )
-              </span>
-            </li>
-            <li class="list-item token-item">
-              <span>
-                Team: 20%(12 months Cliff, with a vesting period of two years)
-              </span>
-            </li>
-            <li class="list-item token-item">
-              <span>Liquidty: 10%(5%for DEX,5% for CEX)</span>
-            </li>
-            <li class="list-item token-item"><span>Marketing: 7%</span></li>
-            <li class="list-item token-item"><span>Airdrop: 3%</span></li>
-            <li class="list-item token-item"><span>No Taxes</span></li>
-          </ul>
-          <img alt="image" src="public/playground_assets/pie-chart.svg" class="home-image5" />
-        </div>
-      </section>
-      <section id="roadmap" class="home-roadmap">
-        <div class="home-heading2">
-          <h2 class="home-header05">Roadmap</h2>
-        </div>
-        <div class="home-list">
-          <div class="home-step">
-            <span class="home-caption1">01</span>
-            <ul class="list home-ul3">
+        </header>
+        <section id="home" class="home-home">
+          <div class="home-heading">
+            <h1 class="home-header">
+              Don't you hate worthless deceitful memecoins? They are shit!&nbsp;
+            </h1>
+            <p class="home-caption">
+              Dream is valuable and meaningful, unlike those worthless deceitful
+              memecoins!
+            </p>
+          </div>
+          <div class="home-buttons">
+            <button class="button">Coinmarketcap(coming soon)</button>
+            <button class="button">Coingecko(coming soon)</button>
+            <button class="button">DEX(coming soon)</button>
+          </div>
+        </section>
+        <section id="team" class="home-team">
+          <h2 class="home-header01">Team</h2>
+          <div class="home-understand">
+            <div class="home-content">
+              <div class="home-heading1">
+                <p class="home-header02">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+            <ul class="list">
               <li class="list-item">
                 <span>
-                  <span>Launch</span>
-                  <br />
+                  Team has a dream, which is to manage a $10 billion fund one
+                  day
                 </span>
               </li>
               <li class="list-item">
-                <span>CoinGecko/Coinmarketcap Listings</span>
+                <span>want to do something meaningful</span>
               </li>
-              <li class="list-item"><span>1,000+ Holders</span></li>
+              <li class="list-item">
+                <span>
+                  4+ years of professional experience trading $BTC/$ETH
+                </span>
+              </li>
+            </ul>
+            <img
+              alt="image"
+              src="public/playground_assets/dream-website-favicon-black.svg"
+              class="home-image3"
+            />
+          </div>
+        </section>
+        <section id="project" class="home-project">
+          <h2 class="home-header03">Project</h2>
+          <div class="home-understand1">
+            <img
+              alt="image"
+              src="public/playground_assets/dream-low-resolution-logo-color-on-transparent-background.svg"
+              class="home-image4"
+            />
+            <ul class="list">
+              <li class="list-item">
+                <span>Earn profit from trading $BTC/$ETH</span>
+              </li>
+              <li class="list-item">
+                <span>
+                  50% of the profit is used to buy back $DREAM and burn it(once
+                  a quarter)
+                </span>
+              </li>
             </ul>
           </div>
-          <div class="home-step1">
-            <span class="home-caption2">02</span>
-            <div class="home-heading3">
-              <ul class="list home-ul4">
-                <li class="list-item"><span>CEX Listings</span></li>
-                <li class="list-item">
-                  <span>Build Community &amp;&nbsp;DAO</span>
-                </li>
-                <li class="list-item"><span>10,000+holders</span></li>
-              </ul>
-            </div>
+        </section>
+        <section id="tokenomics" class="home-tokenomics">
+          <h2 class="home-header04">Tokenomics</h2>
+          <h2>
+            There are no institutional investors, opportunities are only given
+            to ordinary people
+          </h2>
+          <div class="home-understand2">
+            <ul class="list">
+              <li class="token-item list-item">
+                <span class="token-item">
+                  $DREAM total supply: 1,000,000,000,000
+                </span>
+              </li>
+              <li class="token-item list-item">
+                <span class="token-item">IDO: 40%</span>
+              </li>
+              <li class="token-item list-item">
+                <span class="token-item">
+                  DAO Treasury: 20%(After the DAO is established, the usage is
+                  determined by the DAO. )
+                </span>
+              </li>
+              <li class="token-item list-item">
+                <span>
+                  Team: 20%(12 months Cliff, with a vesting period of two years)
+                </span>
+              </li>
+              <li class="token-item list-item">
+                <span>Liquidty: 10%(5%for DEX,5% for CEX)</span>
+              </li>
+              <li class="token-item list-item"><span>Marketing: 7%</span></li>
+              <li class="token-item list-item"><span>Airdrop: 3%</span></li>
+              <li class="token-item list-item"><span>No Taxes</span></li>
+            </ul>
+            <img
+              alt="image"
+              src="public/playground_assets/pie-chart.svg"
+              class="home-image5"
+            />
           </div>
-          <div class="home-step2">
-            <span class="home-caption3">03</span>
-            <div>
-              <ul class="list home-ul5">
+        </section>
+        <section id="roadmap" class="home-roadmap">
+          <div class="home-heading2">
+            <h2 class="home-header05">Roadmap</h2>
+          </div>
+          <div class="home-list">
+            <div class="home-step">
+              <span class="home-caption1">01</span>
+              <ul class="list home-ul3">
                 <li class="list-item">
                   <span>
-                    <span>T1 Exchange Listings</span>
+                    <span>IDO(coming soon)</span>
                     <br />
                   </span>
                 </li>
-                <li class="list-item"><span>100,000+ holders</span></li>
+                <li class="list-item">
+                  <span>DEX Listings(coming soon)</span>
+                </li>
+                <li class="list-item"><span>1,000+ Holders</span></li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-      <footer class="home-footer">
-        <div class="home-main">
-          <div class="home-branding">
-            <div class="home-heading5">
-              <p class="home-caption4">© 2023 Dream. All rights reserved!</p>
+            <div class="home-step1">
+              <span class="home-caption2">02</span>
+              <div class="home-heading3">
+                <ul class="list home-ul4">
+                  <li class="list-item"><span>CEX Listings</span></li>
+                  <li class="list-item">
+                    <span>Build Community &amp;&nbsp;DAO</span>
+                  </li>
+                  <li class="list-item"><span>10,000+holders</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="home-step2">
+              <span class="home-caption3">03</span>
+              <div>
+                <ul class="list home-ul5">
+                  <li class="list-item">
+                    <span>
+                      <span>T1 Exchange Listings</span>
+                      <br />
+                    </span>
+                  </li>
+                  <li class="list-item"><span>100,000+ holders</span></li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
-      <section class="home-faq">
-        <h2 class="home-header06">We have all the answers</h2>
-        <div class="home-accordion">
-          <div data-role="accordion-container" class="home-element accordion">
-            <div class="home-content1">
-              <span class="home-header07">
-                Lorem ipsum dolor sit ametetur elit?
-              </span>
-              <span data-role="accordion-content" class="home-description">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </span>
-            </div>
-            <div class="home-icon-container">
-              <svg viewBox="0 0 1024 1024" data-role="accordion-icon-closed" class="home-icon">
-                <path
-                  d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg><svg viewBox="0 0 1024 1024" data-role="accordion-icon-open" class="home-icon02">
-                <path
-                  d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg>
+        </section>
+        <footer class="home-footer">
+          <div class="home-main">
+            <div class="home-branding">
+              <div class="home-heading5">
+                <p class="home-caption4">© 2023 Dream. All rights reserved!</p>
+              </div>
             </div>
           </div>
-          <div data-role="accordion-container" class="home-element1 accordion">
-            <div class="home-content2">
-              <span class="home-header08">
-                Excepteur sint occaecat cupidatat non sunt in culpa qui
-                officia deserunt mollit anim id est laborum?
-              </span>
-              <span data-role="accordion-content" class="home-description1">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </span>
+        </footer>
+        <section class="home-faq">
+          <h2 class="home-header06">We have all the answers</h2>
+          <div class="home-accordion">
+            <div data-role="accordion-container" class="home-element accordion">
+              <div class="home-content1">
+                <span class="home-header07">
+                  Lorem ipsum dolor sit ametetur elit?
+                </span>
+                <span data-role="accordion-content" class="home-description">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </span>
+              </div>
+              <div class="home-icon-container">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon02"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
             </div>
-            <div class="home-icon-container1">
-              <svg viewBox="0 0 1024 1024" data-role="accordion-icon-closed" class="home-icon04">
-                <path
-                  d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg><svg viewBox="0 0 1024 1024" data-role="accordion-icon-open" class="home-icon06">
-                <path
-                  d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg>
+            <div
+              data-role="accordion-container"
+              class="home-element1 accordion"
+            >
+              <div class="home-content2">
+                <span class="home-header08">
+                  Excepteur sint occaecat cupidatat non sunt in culpa qui
+                  officia deserunt mollit anim id est laborum?
+                </span>
+                <span data-role="accordion-content" class="home-description1">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </span>
+              </div>
+              <div class="home-icon-container1">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon04"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon06"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="home-element2 accordion"
+            >
+              <div class="home-content3">
+                <span class="home-header09">
+                  Tempor incididunt ut labore et dolore magna aliquat enim ad
+                  minim?
+                </span>
+                <span data-role="accordion-content" class="home-description2">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </span>
+              </div>
+              <div class="home-icon-container2">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon08"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon10"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="home-element3 accordion"
+            >
+              <div class="home-content4">
+                <span class="home-header10">
+                  Lorem ipsum dolor sit ametetur elit?
+                </span>
+                <span data-role="accordion-content" class="home-description3">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </span>
+              </div>
+              <div class="home-icon-container3">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon12"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon14"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              class="home-element4 accordion"
+            >
+              <div class="home-content5">
+                <span class="home-header11">
+                  Incididunt ut labore et dolore?
+                </span>
+                <span data-role="accordion-content" class="home-description4">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </span>
+              </div>
+              <div class="home-icon-container4">
+                <svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-closed"
+                  class="home-icon16"
+                >
+                  <path
+                    d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 1024 1024"
+                  data-role="accordion-icon-open"
+                  class="home-icon18"
+                >
+                  <path
+                    d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                  ></path>
+                </svg>
+              </div>
             </div>
           </div>
-          <div data-role="accordion-container" class="home-element2 accordion">
-            <div class="home-content3">
-              <span class="home-header09">
-                Tempor incididunt ut labore et dolore magna aliquat enim ad
-                minim?
-              </span>
-              <span data-role="accordion-content" class="home-description2">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </span>
-            </div>
-            <div class="home-icon-container2">
-              <svg viewBox="0 0 1024 1024" data-role="accordion-icon-closed" class="home-icon08">
-                <path
-                  d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg><svg viewBox="0 0 1024 1024" data-role="accordion-icon-open" class="home-icon10">
-                <path
-                  d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg>
-            </div>
-          </div>
-          <div data-role="accordion-container" class="home-element3 accordion">
-            <div class="home-content4">
-              <span class="home-header10">
-                Lorem ipsum dolor sit ametetur elit?
-              </span>
-              <span data-role="accordion-content" class="home-description3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </span>
-            </div>
-            <div class="home-icon-container3">
-              <svg viewBox="0 0 1024 1024" data-role="accordion-icon-closed" class="home-icon12">
-                <path
-                  d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg><svg viewBox="0 0 1024 1024" data-role="accordion-icon-open" class="home-icon14">
-                <path
-                  d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg>
-            </div>
-          </div>
-          <div data-role="accordion-container" class="home-element4 accordion">
-            <div class="home-content5">
-              <span class="home-header11">
-                Incididunt ut labore et dolore?
-              </span>
-              <span data-role="accordion-content" class="home-description4">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque
-                ipsa quae ab illo inventore veritatis et quasi architecto
-                beatae vitae dicta sunt explicabo.
-              </span>
-            </div>
-            <div class="home-icon-container4">
-              <svg viewBox="0 0 1024 1024" data-role="accordion-icon-closed" class="home-icon16">
-                <path
-                  d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg><svg viewBox="0 0 1024 1024" data-role="accordion-icon-open" class="home-icon18">
-                <path
-                  d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z">
-                </path>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
-  </div>
-  <script data-section-id="navbar" src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
-</body>
-
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
 </html>
